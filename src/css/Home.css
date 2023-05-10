@@ -1,0 +1,83 @@
+*{
+    margin:0px;
+    padding: 0px;
+    }
+    body{
+        background-color:#0F0E0E;
+        color: #14FFEC;
+       
+       
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+    }
+    .container img{
+        width: 20%;
+        height: 30%;
+    }
+    .text{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .text h1{
+        font-family: 'Asap', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    }
+    .text P{
+        font-family: 'Asap', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    line-height: normal;
+    font-weight:0;
+    padding-bottom: 20px;
+    }
+    button{
+        background-color:  #14FFEC;
+        height: 40px;
+        width: 250px;
+        border-radius: 20px;
+        border: 1px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 387px) {
+      .text p{
+        font-size: 30px;
+        line-height: normal;
+        }
+       
+    }
+    @media only screen and (max-width: 323px) {
+        .text p{
+          font-size: 28px;
+          line-height: normal;
+          }
+         
+      }
+      @media only screen and (max-width: 302px) {
+        .text p{
+          font-size: 26px;
+          line-height: normal;
+          }
+         
+      }
+      @media only screen and (max-width: 300px) {
+        .text p{
+          font-size: 20px;
+          line-height: normal;
+          }
+         
+      }
